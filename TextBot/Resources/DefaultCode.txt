@@ -1,0 +1,13 @@
+using System;
+using TextBot;
+
+namespace Generated{
+	public class GeneratedClass:ProcessorBaseClass{
+		public override void Process(){
+			//SetInput(NormalizeLines(WGet("http://...")));
+			string[] lines=GetLines();
+			for (string line in lines){
+			}
+		}
+	}
+}
